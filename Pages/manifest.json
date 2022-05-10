@@ -1,0 +1,15 @@
+{
+  "name": "MEDREC",
+  "short_name": "MEDREC",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "icons":[
+    {
+      "src": "/Images/logo.png",
+      "type": "IMAGES/png",
+      "sizes": "390x162"
+    }
+  ]}
