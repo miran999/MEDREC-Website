@@ -3,6 +3,7 @@
     
     <head>
       <title>MEREC Website</title>
+      <link rel="manifest" href="manifest.json">
       <link rel="stylesheet" href="index.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <meta name="viewport" content="width = device-width, intial-scale=1">
@@ -10,7 +11,10 @@
       <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-      <link rel="manifest" href="manifest.json">
+      
+      <!-- ios support -->
+      <link rel="apple-touch-icon" href="/Images/icons/icon-96x96.png">
+      <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
     </head>
     <body>
 
@@ -82,7 +86,10 @@
           <div class="features-desc">
             <div class="feature-icon"></div>
             <div class="features-text">
-              <p> MEDREC is a graduation project for SBME students, that works on the patient medical records from the 2 different prospective Hospitals, which is the normal, and the Patient view so it can integrate them to make an organized Health care record for each individual in the system and based on the data collected it can predict and detect the symptoms of several diseases, and alert both the healthcare provider and the patient of the procedures need to prevent this disease as early as possible. </p>
+              <p> MEDREC is a graduation project for SBME students, 
+                that works on the patient medical records from the 2 different prospective Hospitals, 
+                which is the normal, and the Patient view so it can integrate them to make an organized Health care record for each individual in the system and based on the data collected it can predict and detect the symptoms of several diseases,
+                and alert both the healthcare provider and the patient of the procedures need to prevent this disease as early as possible. </p>
             </div>
           </div>
         </div>
@@ -127,6 +134,14 @@
     
     </section>
 
+    
+   
+    </body>
+    
+    <script src="./main.js"></script>
+    <script>
+    swInit();
+    </script>
     <!--the following is our scripts -->
     <script>           
       var menuButton= document.getElementById("menuButton")
@@ -149,6 +164,4 @@
 });
     </script>
 
-   
-    </body>
   </html>
