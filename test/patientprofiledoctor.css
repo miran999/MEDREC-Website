@@ -20,6 +20,13 @@ body
     position: relative;
 }
 
+.chart{
+  align-items: center;
+  display: inline-block;
+  width: 370px;
+}
+
+
 .sidebar
 {
     float: left;
