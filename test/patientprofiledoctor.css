@@ -26,6 +26,7 @@ body
   width: 370px;
 }
 
+#more {display: none;}
 
 .sidebar
 {

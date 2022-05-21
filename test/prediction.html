@@ -30,9 +30,9 @@
                                <img src= "/Images/profile.png" >
                                <div class="mt-3">
                                    <h3>Miran Mahmoud</h3>
-                                   <!-- <a href="index.html">Home</a>
-                                   <a href="mrecord.html">My Records</a>
-                                   <a href="">Prediction</a> -->
+                                   <a href="patientprofiledoctor.html">Profile</a>
+                                   <!-- <a href="mrecord.html">My Records</a> -->
+                                   <!-- <a href="">Prediction</a> -->
                                    <!-- <a href="">Medication Error</a> -->
                                    <a href="login.html">Signout</a>
                                </div>
@@ -42,25 +42,36 @@
                     <div class="col-md-8 mt-1">
                         <div class="card mb-3 content">
                             <h1 class="m-3 pt-3">Please enter the following parameters</h1>
-                            <table class="content-table">
+                             <table class="content-table">
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th>Insulin</th>
-                                        <th>BMI</th>
-                                        <th>Blood Pressure</th>
+                                        <th>Value</th>
+                                        <th>Date</th>
+                                        <!-- <th>Blood Pressure</th> -->
 
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
+                                        <td>Insulin</td>
                                         <td><input type="text"></td>
+                                        <td><input type="date" id="start" name="trip-start" 
+                                            value="2018-07-22"
+                                            min="2018-01-01" max="2018-12-31">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Blood Pressure</td>
                                         <td><input type="text"></td>
-                                        <td><input type="text"></td>
+                                        <td><input type="date" id="start" name="trip-start" 
+                                            value="2018-07-22"
+                                            min="2018-01-01" max="2018-12-31">
+                                        </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                              </table>
+                            
                             
                                 <button class="button1" type="submit" onclick="myFunction()"> Show Result </button>
                                 <p id="demo"></p>
@@ -96,7 +107,9 @@
             </div>
         </footer>
 
-        <!--the following is our scripts -->
+
+     </body>
+             <!--the following is our scripts -->
     <script>           
         var menuButton= document.getElementById("menuButton")
         var sideNav= document.getElementById("sideNav")
@@ -134,5 +147,4 @@
           document.getElementById("demo").innerHTML = "YOU ARE A DIABETIC PATIENT";
         }
         </script>
-     </body>
 </html>

@@ -51,6 +51,7 @@ body
   height: 100px;
 }
 
+#more {display: none}
 
 .content
 {

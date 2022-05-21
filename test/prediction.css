@@ -49,10 +49,25 @@ body
 
 .content
 {
+  align-items: center;
     position: relative;
     padding: 100px;
     background-color: whitesmoke;
+    /* margin: auto; */
 }
+
+.content-table{
+  /* width: 200px; */
+  /* align-items: center; */
+  display: inline;
+  /* margin: auto; */
+}
+
+form{
+  margin: auto;
+}
+
+
 
 .header {
     padding: 10px;

@@ -314,7 +314,7 @@ footer p:nth-child(2){
 form{
     display: flex;
     align-items: center;
-    margin-left: 650px;
+    margin: auto;
     padding: 10px;
 }
 .button2

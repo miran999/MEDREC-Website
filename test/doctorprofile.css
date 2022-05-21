@@ -46,6 +46,7 @@ body
     flex-direction: column;
 }
 
+#more {display: none;}
 
 .content
 {
